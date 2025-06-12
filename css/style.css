@@ -32,7 +32,7 @@ nav a{
 }
 
 header{
-    background: linear-gradient(to right, rgba(0,0,0,0.8), white), url('images/back.webp');
+    background: linear-gradient(to right, rgba(0,0,0,0.8), white), url('../images/back.webp');
     background-blend-mode: multiply;
     background-size: cover;
 }
@@ -128,15 +128,38 @@ header{
     padding : 0px 130px 130px 130px;
     background-color : #140748;
     color : white;
+    position : absolute;
+}
+
+.head{
+    padding-bottom : 10px;
 }
 
 .head h2{
     font-family: "Bebas Neue", sans-serif;
     font-size : 40px;
     font-weight : 400;
+    margin-bottom : 0px;
 }
 .container_div p{
     font-family : "Roboto", sans-serif;
     font-size : 22px;
     font-weight : 300;
+    margin-top : 0px;
 }
+
+.container_div {
+    display : flex;
+    flex-direction : initial;
+    flex-wrap : initial;
+    margin-top : 80px;
+}
+
+.swipe_images{
+    display : flex;
+    justify-content : space-between;
+    position : relative;
+    top : -40%;
+    padding-bottom : 30px;
+}
+
