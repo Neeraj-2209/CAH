@@ -129,6 +129,7 @@ header{
     background-color : #140748;
     color : white;
     position : absolute;
+    height : 330px;
 }
 
 .head{
@@ -141,25 +142,73 @@ header{
     font-weight : 400;
     margin-bottom : 0px;
 }
-.container_div p{
+.description p{
     font-family : "Roboto", sans-serif;
     font-size : 22px;
     font-weight : 300;
     margin-top : 0px;
 }
 
-.container_div {
+#three_items{
+    position : relative;
+    bottom : 250px;
     display : flex;
-    flex-direction : initial;
-    flex-wrap : initial;
     margin-top : 80px;
+    padding-left : 50px;
+    padding-right : 50px;
 }
-
+.mail_img{
+    display : flex;
+    align-items : center;
+    width : 285px;
+    justify-content: center;
+}
 .swipe_images{
     display : flex;
     justify-content : space-between;
     position : relative;
-    top : -40%;
+    bottom : 200px;
     padding-bottom : 30px;
 }
 
+.two_items{
+    padding-right : 70px;
+}
+
+.circle-loader {
+  position : relative;
+  bottom : 215px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top : 5px;
+  padding-bottom : 5px;
+}
+
+.circle-loader span {
+  margin : 0px 10px 10px 0px;
+  top: 50%;
+  left: 50%;
+  width: 6px;
+  height: 6px;
+  background: white;
+  border-radius: 50%;
+}
+
+#personal_details{
+    display : flex;
+    padding : 0px 130px 130px 0px;
+    height : 500px;
+}
+
+#personal_details h2{
+    
+    font-family : "Bebas Neue", sans-serif;
+    color: #140748;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.image{
+    background-image: url('../images/back_section3.png');
+}
