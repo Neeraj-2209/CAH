@@ -128,7 +128,7 @@ header{
     padding : 0px 130px 130px 130px;
     background-color : #140748;
     color : white;
-    position : absolute;
+    position : static;
     height : 330px;
 }
 
@@ -197,18 +197,124 @@ header{
 
 #personal_details{
     display : flex;
-    padding : 0px 130px 130px 0px;
-    height : 500px;
+    padding-right : 130px;
 }
 
 #personal_details h2{
-    
+    margin : 0px;
     font-family : "Bebas Neue", sans-serif;
     color: #140748;
     font-size: 40px;
     font-weight: 400;
+    margin-bottom : 30px;
 }
 
 .image{
     background-image: url('../images/back_section3.png');
+    width : 60%;
+    height : 900px;
+    background-size : cover;
+    background-position: center;
+}
+
+.details{
+    width : 40%;
+    padding-left : 70px;
+    padding-top : 130px;
+    padding-bottom : 130px;
+}
+
+.details p{
+    font-family: "Roboto", sans-serif;
+    color : #666666;
+    font-weight : 400;
+    font-size : 16px;
+    line-height: 1.6em;
+    margin-bottom : 40px;
+}
+
+.list_items ul{
+    list-style-type: none;
+    padding : 0px;
+    
+}
+
+.list_items {
+    margin-bottom : 40px;
+}
+
+.list_items i{
+    color : #7961E8;
+    font-size: 18px;
+}
+
+.list_items li {
+    margin-top : 15px;
+    padding-bottom : 15px;
+    display : flex;
+    align-items : center;
+}
+
+.item_name{
+    font-family: "Bebas Neue", sans-serif;
+    font-size : 22px;
+    padding-left : 15px;
+    color : #2D2D2D;
+}
+
+.button{
+    text-decoration : none;
+    text-transform : uppercase;
+    font-family :"Roboto", sans-serif;
+    background-color : #140748;
+    color : white;
+    padding : 15px 25px 15px 25px;
+    font-size : 14px;
+    font-weight : 500;
+}
+
+#education{
+    display : flex;
+    padding-top : 130px;
+    padding-bottom : 130px;
+    /* height : 500px; */
+}
+
+.education-image{
+    background-color: #FFFFFF;
+    background-image: url(https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/1080x1080-6-3.jpg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 50%;
+    height: 800px;
+    /* position : relative;
+    background-image: url("../images/education.png");
+    background-size : 50% auto;
+    background-position : center right;
+    background-repeat: no repeat;
+    height : 500px;*/
+} 
+
+.education-left{
+    margin-left : 180px;
+    width : 40%
+}
+
+.education-left h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-size : 40px;
+    font-weight : 400;
+    color : #140748;
+}
+
+.education-left h6{
+    color: #140748;
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.short-description{
+    
 }
